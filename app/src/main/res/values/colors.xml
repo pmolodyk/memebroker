@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#303FBF</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimaryLight">#699EE2</color>
+    <color name="colorAccent">#CC0000</color>
+    <color name="colorAccentDark">#AA0000</color>
+    <color name="PeachPuff">#FFDAB9</color>
+    <color name="Tan">#D2B48C</color>
+    <color name="Linen">#FAF0E6</color>
+    <color name="Red">#FF0000</color>
+    <color name="Grey">#AAAAAA</color>
+    <color name="LightGrey">#DDDDDD</color>
+    <color name="DarkGrey">#CCCCCC</color>
+    <color name="LightGold">#FFFF00</color>
+    <color name="DarkGold">#FFD700</color>
+    <color name="DarkSilver">#ACACAC</color>
+    <color name="LightSilver">#C0C0C0</color>
+    <color name="DarkBronze">#CD7F32</color>
+    <color name="LightBronze">#DE8F43</color>
+    <color name="Green">#55FF55</color>
+    <color name="BasicBackground">#DDDDDD</color>
+    <color name="TopMemesBackground">#770000</color>
+    <color name="Black">#000000</color>
+    <color name="White">#FFFFFF</color>
+    <color name="Orange">#FF5C00</color>
+    <color name="DarkOrange">#FF8500</color>
+</resources>

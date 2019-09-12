@@ -1,0 +1,249 @@
+<resources>
+    <string name="app_name">Meme Broker</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="add_note">Add note</string>
+    <string name="random">Random</string>
+    <string name="rising">Rising</string>
+    <string name="expensive">Expensive</string>
+    <string name="information">Information</string>
+    <string name="select_image">Select image</string>
+    <string name="finish_uploading">Done!</string>
+    <string name="cancel">Cancel</string>
+    <string name="buy">Buy</string>
+    <string name="add_to_shortlist">Add to shortlist</string>
+    <string name="price">Price</string>
+    <string name="register">Sign up</string>
+    <string name="signin">Sign in</string>
+    <string name="next">Next</string>
+    <string name="OK">OK</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="email">E-mail</string>
+    <string name="resend">Resend e-mail</string>
+    <string name="reload">update</string>
+    <string name="addedToShortlist">Meme added to shortlist successfully</string>
+    <string name="failedAddingToShortlistBecauseFull">Your shortlist is full!</string>
+    <string name="failedAddingToShortlistBecauseExists">You have this meme in your shortlist!</string>
+    <string name="verified">If you have verified your E-mail, press this button to proceed</string>
+    <string name="email_sent">We have sent an e-mail to you, please follow the link in the message</string>
+    <string name="logout">Logout</string>
+    <string name="createUserFailed">Something went wrong, please try again</string>
+    <string name="smthWentWrong">Something went wrong, please try again</string>
+    <string name="verify">Verify E-mail</string>
+    <string name="change_password">Change password</string>
+    <string name="old_password">Old password</string>
+    <string name="new_password">New password</string>
+    <string name="wrong_email">If you have made a mistake in your email address, please press this button</string>
+    <string name="relogin">Relogin</string>
+    <string name="sell">Sell</string>
+    <string name="new_balance">New Balance</string>
+    <string name="total_cost">Total cost</string>
+    <string name="meme_price">Meme Price</string>
+    <string name="meme_centre">Meme Centre</string>
+    <string name="main">Main</string>
+    <string name="profile">Profile</string>
+    <string name="assets">Assets</string>
+    <string name="possibleReceipts">Can get: %1$d</string>
+    <string name="possibleProfit">Profit: %1$d</string>
+    <string name="memePriceWithDelta">%1$d(%2$s)</string>
+    <string name="incomeWithSign">%1$s%2$d</string>
+    <string name="warningBan">If your image contains illegal or inappropriate content, you will be banned!</string>
+    <string name="totalExpense">Spent: %1$d</string>
+    <string name="emptyShortlist">Shortlist is empty!</string>
+    <string name="noMemesOnServer">No memes are available in this language</string>
+    <string name="other">Other</string>
+    <string name="shortlist">Shortlist</string>
+    <string name="unameFormat">Username should only contain letters and digits</string>
+    <string name="passFormat">Password should only contain letters and digits</string>
+    <string name="invalidUser">Username or password invalid</string>
+    <string name="invalidMail">Please enter a valid e-mail address</string>
+    <string name="passLength">Your password should be at least %1$d characters long</string>
+    <string name="passMaxLength">Your password should be not longer than %1$d characters long</string>
+    <string name="unameTaken">This username is already occupied</string>
+    <string name="mailTaken">This e-mail address is already occupied</string>
+    <string name="newPrice">now: %1$s</string>
+    <string name="oldPrice">was: %1$s</string>
+    <string name="RandomMemesTitle">%1$s memes</string>
+    <string name="TopMemesTitle">Top %1$s memes</string>
+    <string name="NewMemesTitle">Fresh %1$s memes</string>
+    <string name="meme_name_with_author">meme №%1$s by %2$s</string>
+    <string name="meme_name_without_author">%1$s meme №%2$s</string>
+    <string name="topPeopleOrder">#%1$d</string>
+    <string name="topPeopleOrderBig">#%1$d+ </string>
+    <string name="Respect">Respect: %1$d</string>
+    <string name="Money">Money: %1$d</string>
+    <string name="meme_search_hint">Search meme by id</string>
+    <string name="unsafe_password_info">Your temporary password %1$s is being stored in the database, which is very unsafe. We highly recommend you to change it.</string>
+    <string name="logout_or_verify">You are signed, but your E-mail %1$s is not verified. You can log out, then this account will be deleted, or verify your e-mail</string>
+    <string name="submit">Submit</string>
+    <string name="report_abuse">Report abuse</string>
+    <string name="choose_meme_language_title">Choose memes language</string>
+    findViewById(R.id.meme_lang_choose_toolbar)
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_register">registerActivity</string>
+    <string name="topMemes">Top Memes</string>
+    <string name="uploadedMemes">Uploaded</string>
+    <string name="searchPeople">Search</string>
+    <string name="people_search_hint">Search people</string>
+    <string name="specify_category">Please tell us what is wrong</string>
+    <string name="describe_problem">Please describe the problem</string>
+    <string name="porn">Adult content</string>
+    <string name="violence">Violence</string>
+    <string name="medical">Medical content</string>
+    <string name="racism">Racism/Intolerance</string>
+    <string name="illegal">Illegal content</string>
+    <string name="spam">Spam</string>
+    <string name="already_reported">You already reported this image</string>
+    <string name="rotate_image">Rotate image</string>
+    <string name="meme_exists">This meme already exists</string>
+    <string name="fresh_ready">"FRESH MEMES READY)"</string>
+    <string name="people">People</string>
+    <string name="choose_language">Language</string>
+    <string-array name="languages_array">
+        <item>International</item>
+        <item>English</item>
+        <item>Chinese</item>
+        <item>Spanish</item>
+        <item>Russian</item>
+        <item>Arabic</item>
+        <item>Portuguese</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Ukrainian</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="single_form_languages">
+        <item>International</item>
+        <item>English</item>
+        <item>Chinese</item>
+        <item>Spanish</item>
+        <item>Russian</item>
+        <item>Arabic</item>
+        <item>Portuguese</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Ukrainian</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="original_languages">
+        <item>International</item>
+        <item>English</item>
+        <item>Chinese</item>
+        <item>Spanish</item>
+        <item>Russian</item>
+        <item>Arabic</item>
+        <item>Portuguese</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Ukrainian</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="languages_not_capital">
+        <item>international</item>
+        <item>English</item>
+        <item>Chinese</item>
+        <item>Spanish</item>
+        <item>Russian</item>
+        <item>Arabic</item>
+        <item>Portuguese</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Ukrainian</item>
+        <item>other</item>
+    </string-array>
+    <string-array name="locales_userfriendly">
+        <item>English</item>
+        <item>Русский</item>
+    </string-array>
+    <string-array name="locales_machine">
+        <item>en</item>
+        <item>ru</item>
+    </string-array>
+    <string name="quota_exceeded">Weekly upload limit exceeded!</string>
+    <string name="memeNotFound">Meme not found!</string>
+    <string name="oldPasswordIsWrong">Incorrect password!</string>
+    <string name="passTooLong">Password cannot be longer than 40 characters</string>
+    <string name="passwordsDifferent">Passwords do not match!</string>
+    <string name="repeat_password">Repeat new password</string>
+    <string name="ConnectionError">Error! Check your Internet connection.</string>
+    <string name="changes_on_restart">Restart the app after changing</string>
+    <string name="wrong_meme_format">Your meme has Invalid aspect ratio</string>
+    <string name="memeDeleted">Meme deleted.</string>
+    <string name="topPeople">Top Brokers</string>
+    <string name="forgotPassword">Forgot password?</string>
+    <string name="checkPass">Mail send failed. Check the address and your connection</string>
+    <string name="recoverySent">An E-mail was sent to your address</string>
+    <string name="topMeme_update_error">You can\'t update top too often</string>
+    <string name="choose_meme_language">What kind of memes do you want to laugh at?</string>
+    <string name="image_not_chosen_error">Image not chosen!</string>
+    <string name="upload_title">Upload new meme</string>
+    <string name="recoverPasswordHint">A confirmation email will be sent to the address you entered</string>
+    <string name="signinOptinos">Login options</string>
+    <string name="buyOrSell">Buy/Sell</string>
+    <string name="connectingToServer">Connecting to server</string>
+    <string name="welcome">Welcome to MemeBroker,</string>
+    <string name="signUpRequest">Sign up to continue</string>
+    <string name="haveAnAccount">Have an account?\ </string>
+    <string name="welcomeBack">Welcome back to MemeBroker</string>
+    <string name="signInRequest">Sign in to continue</string>
+    <string name="newUser">New broker?\ </string>
+    <string name="emailOccupied">This email is already occupied</string>
+    <string name="finishRegistration">Let\'s finish formalities</string>
+    <string name="verifyRequest">Verify email to complete registration</string>
+    <string name="sure_quit">Do you want to quit the app?</string>
+    <string name="exit">Exit</string>
+    <string name="action_help">Help</string>
+    <string name="help_buy">Buying and selling memes</string>
+    <string name="help_posting">Uploading memes</string>
+    <string name="help_respect">All about respect</string>
+    <string name="help_shortlist">All about the shortlist</string>
+    <string name="wrong_lang">Wrong language</string>
+    <string name="help_buy_text">\t The price of every meme is calculated from the number of shares that were sold. You can buy any amount of shares of any meme, but every share is more expensive than the previous one.
+To buy shares of a meme, just tap the image, then choose "Buy" and set the amount of shares you want to purchase.\n
+\t All memes you own will appear in your "Assets" tab. To sell memes, tap them from your assets list, choose "Sell" and set the amount of shares you want to sell.\n
+    \t Please note that you cannot spend more than 2/3 of your money on a single purchase.</string>
+    <string name="help_posting_text">\t \t Any user can upload his own meme to MemeBroker. You can do this by pressing the \"Upload\" button in the lower right corner.
+You will be prompted to choose an image from your storage. After you have chosen the image a smaller copy of it will appear on your screen.
+Make sure it is uploaded in the correct orientation and rotate it using the "rotate" button otherwise.\n
+\t Please note that all images will be scaled to reduce data traffic. Also note that adult content is strictly prohibited, as well as any illegal or abusive content. All users that upload inappropriate images will be banned(more about bans and respect in \"All about respect\").\n \t
+Your meme may take several minutes to be published, because all images are automatically inspected for inappropriate content.
+</string>
+    <string name="help_respect_text">Users that help us improve MemeBroker will recieve respect points.
+A user loses respect points if they violate our rules. Users with zero respect will be banned.\n
+\t For example, if a user reports an inappropriate meme, he recieves 5 respect points, but if the reported meme does not break our rules, the user loses 5 respect points.\n
+\t If a user uploads a meme that violates our rules, their respect can be lowered by any value, up to immediate ban.
+</string>
+    <string name="help_shortlist_text">The shortlist is an instrument which will help you analyze how share prices change. \n
+\t You can add any meme to your shortlist by long-pressing the image and then choosing the "add to shortlist" option.
+You can access your shortlist from the menu.\n
+\tThe meme tabs in the shortlist show the current price of one share and how much a share cost when you added this meme.\n
+\tYou can long-tap the meme to update the start price. To delete a meme from a shortlist just swipe it to the side.
+</string>
+    <string name="title_activity_maintenance">Maintenance break</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="byJattilainen">By jattilainen</string>
+    <string name="maintenance_with_time">Sorry, the servers are under maintenance, please try again in %1$d minutes</string>
+    <string name="outdated_version">You are using an outdated version of the app. Please update it via Google Play.</string>
+    <string name="choose_upload_meme_lang">Your meme language</string>
+    <string name="signUpProgress">Creating account</string>
+    <string name="signInProgress">Signing in</string>
+    <string name="reloginProgress">Deleting account</string>
+    <string name="email_sent_short">Email sent</string>
+    <string name="email_not_verified">Email not verified</string>
+    <string name="upload_language_not_chosen">Meme language not chosen</string>
+    <string name="agree_with_policy"> By signing in you agree with our <a href = "https://pastebin.com/MQQY0YNF">Terms and Conditions</a></string>
+    <string name="clearShortlist">Clear shortlist</string>
+    <string name="empty_assets">You haven\'t bought any memes yet.</string>
+    <string name="empty_shortlist">Your shortlist is empty.</string>
+    <string name="empty_uploaded">You haven\'t uploaded any memes yet.</string>
+    <string name="empty_personprofile">This user has not uploaded any memes yet.</string>
+    <string name="noText">Without text</string>
+    <string name="upload_started">Your meme will be reviewed</string>
+    <string name="new_memes">Fresh memes</string>
+
+</resources>

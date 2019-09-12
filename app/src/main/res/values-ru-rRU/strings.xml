@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Meme Broker</string>
+    <string name="navigation_drawer_open">Открыть меню</string>
+    <string name="navigation_drawer_close">Закрыть меню</string>
+    <string name="action_settings">Настройки</string>
+    <string name="add_note">ВАДИМ ПЕТУХ</string>
+    <string name="random">Случайный</string>
+    <string name="rising">Растущий</string>
+    <string name="expensive">Дорогой</string>
+    <string name="information">Информация</string>
+    <string name="select_image">Выбрать мем</string>
+    <string name="finish_uploading">Готово!</string>
+    <string name="cancel">Отмена</string>
+    <string name="buy">Купить</string>
+    <string name="add_to_shortlist">Добавить в закладки</string>
+    <string name="price">Цена</string>
+    <string name="register">Зарегистрироваться</string>
+    <string name="signin">Войти</string>
+    <string name="next">Следующий</string>
+    <string name="OK">ОК</string>
+    <string name="username">Логин</string>
+    <string name="password">Пароль</string>
+    <string name="email">Эл. почта</string>
+    <string name="resend">Послать ещё раз</string>
+    <string name="reload">Обновить</string>
+    <string name="addedToShortlist">Мем добавлен в закладки</string>
+    <string name="failedAddingToShortlistBecauseFull">Раздел \"закладки\" уже заполнен!</string>
+    <string name="verified">Если Вы подтвердили адрес Электронной почты, пожалуйста, нажмите сюда</string>
+    <string name="email_sent">Мы отослали на указанный Вами адрес письмо. Перейдите, пожалуйста, по ссылке в теле письма</string>
+    <string name="logout">Выйти</string>
+    <string name="createUserFailed">Что-то пошло не так! Попробуйте еще раз!</string>
+    <string name="smthWentWrong">Что-то пошло не так! Попробуйте еще раз!</string>
+    <string name="verify">Подтвердить адрес Эл. почты</string>
+    <string name="change_password">Сменить пароль</string>
+    <string name="old_password">Старый пароль</string>
+    <string name="new_password">Новый пароль</string>
+    <string name="wrong_email">Если вы допустили ошибку при вводе адреса, пожалуйста, нажмите сюда</string>
+    <string name="relogin">Перезайти</string>
+    <string name="sell">Продать</string>
+    <string name="new_balance">Новый баланс</string>
+    <string name="total_cost">Итого</string>
+    <string name="meme_price">Цена мема</string>
+    <string name="meme_centre">Центр Мемов</string>
+    <string name="main">Главное</string>
+    <string name="profile">Профиль</string>
+    <string name="assets">Активы</string>
+    <string name="possibleReceipts">Можно получить: %1$d</string>
+    <string name="possibleProfit">Прибыль: %1$d</string>
+    <string name="warningBan">Если мем содержит недопустимый контент, аккаунт будет заблокирован!</string>
+    <string name="totalExpense">Потрачено: %1$d</string>
+    <string name="emptyShortlist">Раздел \"закладки\" пуст!</string>
+    <string name="noMemesOnServer">Нет мемов на этом языке</string>
+    <string name="other">Другое</string>
+    <string name="shortlist">Закладки</string>
+    <string name="unameFormat">Логин может содержать только цифры и латинские буквы</string>
+    <string name="passFormat">Пароль может содержать только цифры и латинские буквы</string>
+    <string name="invalidUser">Неверный логин или пароль</string>
+    <string name="invalidMail">Пожалуйста, введите настоящий адрес электронной почты</string>
+    <string name="passLength">Пароль должен быть не короче %1$d символов</string>
+    <string name="unameTaken">Этот логин уже занят!</string>
+    <string name="mailTaken">Этот адрес Эл. почты уже используется</string>
+    <string name="newPrice">сейчас: %1$s</string>
+    <string name="oldPrice">было: %1$s</string>
+    <string name="meme_name_with_author">мем №%1$s автор %2$s</string>
+    <string name="meme_name_without_author">%1$s мем №%2$s</string>
+    <string name="topPeopleOrder">#%1$d</string>
+    <string name="topPeopleOrderBig">#%1$d+</string>
+    <string name="meme_search_hint">Поиск мема по номеру</string>
+    <string name="unsafe_password_info">Ваш временный пароль %1$s хранится в явном виде в базе данных, что очень небезопасно. Очень рекомендуем вам его поменять!</string>
+    <string name="logout_or_verify">Вы зашли в аккаунт, но не подтвердили свой адрес Эл. почты. Вы можете выйти (тогда ваш аккаунт будет удален) либо подтвердить адрес Эл. поты</string>
+    <string name="submit">Отправить</string>
+    <string name="report_abuse">Пожаловаться</string>
+    <string name="hello_blank_fragment">Сообщите в техподдержку, если видите это</string>
+    <string name="title_activity_register">Регистрация</string>
+    <string name="topMemes">Лучшие мемы</string>
+    <string name="uploadedMemes">Загруженные</string>
+    <string name="searchPeople">Поиск</string>
+    <string name="people_search_hint">Поиск пользователей</string>
+    <string name="specify_category">Пожалуйста, сообщите, что не так</string>
+    <string name="describe_problem">Пожалуйста, опишите проблему</string>
+    <string name="porn">Материалы для взрослых</string>
+    <string name="violence">Жестокость</string>
+    <string name="medical">Медицинский контент</string>
+    <string name="racism">Расизм/нетолерантность</string>
+    <string name="illegal">Незаконный контент</string>
+    <string name="spam">Спам</string>
+    <string name="already_reported">Вы уже пожаловались на это изображение</string>
+    <string name="rotate_image">Повернуть</string>
+    <string name="meme_exists">Этот мем уже загружен</string>
+    <string name="fresh_ready">Свежие мемчики готовы)</string>
+    <string name="people">Пользователи</string>
+    <string name="choose_language">Язык</string>
+    <string name="quota_exceeded">Вы превысили ограничение на количество загрузок в неделю!</string>
+    <string name="failedAddingToShortlistBecauseExists">Этот мем уже добавлен!</string>
+    <string name="memeNotFound">Такого мема нет.</string>
+    <string name="oldPasswordIsWrong">Неверный пароль!</string>
+    <string name="passTooLong">Длина пароля не должна превышать 40 символов</string>
+    <string name="passwordsDifferent">Пароли не совпадают!</string>
+    <string name="repeat_password">Повторите новый пароль</string>
+    <string name="changes_on_restart">Перезапустите приложение, чтобы увидеть изменения</string>
+    <string name="Respect">Респект: %1$d</string>
+    <string name="Money">Деньги: %1$d</string>
+    <string name="ConnectionError">Ошибка! Проврьте подключение к Интернету.</string>
+    <string name="wrong_meme_format">Такое соотношение сторон не поддерживается</string>
+    <string name="memeDeleted">Мем удален.</string>
+    <string name="topPeople">Лучшие брокеры</string>
+    <string name="RandomMemesTitle">%1$s мемы</string>
+    <string-array name="languages_array">
+        <item>Интернациональные</item>
+        <item>Английские</item>
+        <item>Китайские</item>
+        <item>Испанские</item>
+        <item>Русские</item>
+        <item>Арабские</item>
+        <item>Португальские</item>
+        <item>Французские</item>
+        <item>Немецкие</item>
+        <item>Украинские</item>
+        <item>Другие</item>
+    </string-array>
+    <string-array name="single_form_languages">
+        <item>Интернациональный</item>
+        <item>Английский</item>
+        <item>Китайский</item>
+        <item>Испанский</item>
+        <item>Русский</item>
+        <item>Арабский</item>
+        <item>Португальский</item>
+        <item>Французский</item>
+        <item>Немецкий</item>
+        <item>Украинский</item>
+        <item>Другой</item>
+    </string-array>
+    <string-array name="languages_not_capital">
+        <item>интернациональные</item>
+        <item>английские</item>
+        <item>китайские</item>
+        <item>испанские</item>
+        <item>русские</item>
+        <item>арабские</item>
+        <item>португальские</item>
+        <item>французские</item>
+        <item>немецкие</item>
+        <item>украинские</item>
+        <item>другие</item>
+    </string-array>
+    <string-array name="original_languages">
+        <item>International</item>
+        <item>English</item>
+        <item>Chinese</item>
+        <item>Spanish</item>
+        <item>Russian</item>
+        <item>Arabic</item>
+        <item>Portuguese</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Ukrainian</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="locales_userfriendly">
+        <item>English</item>
+        <item>Русский</item>
+    </string-array>
+    <string-array name="locales_machine">
+        <item>en</item>
+        <item>ru</item>
+    </string-array>
+    <string name="forgotPassword">Забыли пароль?</string>
+    <string name="checkPass">Письмо не отправлено. Убедитесь, что вы указали верный адрес и подключены к интернету.</string>
+    <string name="recoverySent">Вам на почту было отправлено письмо</string>
+    <string name="upload_title">Загрузить новый мем</string>
+    <string name="choose_meme_language_title">Выберите язык мемов</string>
+    <string name="topMeme_update_error">Нельзя обновлять слишком часто</string>
+    <string name="choose_meme_language">Над какими мемами предпочитаете орнуть?</string>
+    <string name="image_not_chosen_error">Вы не выбрали изображение</string>
+    <string name="signinOptinos">Варианты входа</string>
+    <string name="recoverPasswordHint">Письмо для подтверждения аккаунта будет отправлено на указанный вами адрес</string>
+    <string name="memePriceWithDelta">%1$d(%2$s)</string>
+    <string name="incomeWithSign">%1$s%2$d</string>
+    <string name="TopMemesTitle">Лучшие %1$s мемы</string>
+    <string name="action_help">Справка</string>
+    <string name="help_buy">Покупка и продажа мема</string>
+    <string name="help_posting">Загрузка мема</string>
+    <string name="help_respect">Для чего нужен респект?</string>
+    <string name="help_shortlist">Что такое закладки?</string>
+    <string name="help_buy_text">\t Цена мема зависит от количества купленных на тот момент акций. Можно купить любое количество акции каждого мема, но каждая следующая акция будет стоить дороже предыдущей. Чтобы приобрести акции мема, просто нажмите на картинку, выберите \"Купить\" и укажите количество акций, которое вы желаете приобрести.\n \t Все мемы, акции которых вы купили, отображаются во вкладке \"Активы\". Чтобы продать акции, нажмите на мем в списке активов, выберите \"продать\" и укажите нужное количество акций.\n
+    \t Обращаем Ваше внимание на то, что за одну покупку нельзя потратить больше, чем две трети от общего бюджета.</string>
+
+    <string name="help_posting_text">\t Любой пользователь может загрузить свой мем в MemeBroker, просто нажав кнопку "загрузить" в правом нижнем углу. Вам будет предложено выбрать изображение с устройства. Затем на экране появится копия выбранной вами картинки. Убедитесь в том, что картинка находится в правильной ориентации, и при необходимости поверните ее с помощью кнопки "повернуть". Все изображения будут загружены в сжатом виде, чтобы сэкономить трафик. После загрузки мем автоматически появится во вкладке "Загруженные"\n
+    \t Обращаем ваше внимание на то, что в нашем приложении запрещено размещать материалы, которые нарушают законы РФ, а также оскорбительные и порнографические материалы. Все пользователи, загрузившие запрещенные изображения, будут заблокированы.\n
+\t Также отмечаем, что мемы проходят предварительную автоматическую проверку на содержание запрещенного контента. В сзязи в этим загрузка мема может занимать несколько минут, и не стоит удивляться, если он не появился в списке загруженных мемов мгновенно.</string>
+
+    <string name="help_respect_text">\t Респект получают пользователи, которые помогают делать приложение лучше.
+    Уменьшение респекта показывает, что пользователь совершил какой-то недобросовестный поступок. Если он упадет до нуля, то аккаунт будет заблокирован.\n
+    \t Более конкретно: пользователь, который посылает жалобу на недопустимый мем, будет награжден пятью единицами респекта, но если пользователь жалуется на мем, содержание которого не нарушает наших правил, он потеряет 5 пунктов респекта.
+        \tРеспект пользователя, который загрузил недопустимый мем может быть снижен на любое число единиц по усмотрению админа, вплоть до мгновенного бана.</string>
+    <string name="help_shortlist_text">\t Закладки - инструмент, который поможет вам проанализировать динамику цен на мем. \n
+\t Чтобы добавить мем в закладки, нажмите и удерживайте картинку, а затем выберите вариант \"добавить в закладки\". Посмотреть сохраненные мемы можно по ссылке в меню.\n
+\t На карточках с мемами указана нынешеняя цена мема и цена, по которой вы его приобрели. Чтобы обновить время отсчета цены, нажмите и удерживайте вкладку с мемом. Чтобы удалить мем из закладок, просто смахните его вбок.
+</string>
+    <string name="title_activity_maintenance">Maintenance break</string>
+    <string name="title_activity_settings">Настройки</string>
+    <string name="maintenance_with_time">На сервере ведутся технические работы. Пожалуйста, попробуйте снова через %1$d минут.</string>
+    <string name="outdated_version">Вы используете устаревшую версию приложения. Пожалуйста, обновите его через Google Play.</string>
+    <string name="choose_upload_meme_lang">Выберите язык вашего мема</string>
+    <string name="buyOrSell">Покупка/Продажа</string>
+    <string name="sure_quit">Вы точно хотите покинуть приложение?</string>
+    <string name="exit">Выйти</string>
+    <string name="welcome">Welcome to MemeBroker,</string>
+    <string name="signInRequest">Войдите, чтобы продолжить</string>
+    <string name="signUpRequest">Зарегистрируйтесь, чтобы продолжить</string>
+    <string name="haveAnAccount">Уже есть аккаунт?\ </string>
+    <string name="newUser">Новый брокер?\ </string>
+    <string name="signUpProgress">Создание аккаунта</string>
+    <string name="signInProgress">Выполняем вход</string>
+    <string name="finishRegistration">Остались формальности</string>
+    <string name="verifyRequest">Подтвердите почту, чтобы создать аккаунт</string>
+    <string name="reloginProgress">Забываем Вашу почту</string>
+    <string name="email_sent_short">Письмо отправлено</string>
+    <string name="email_not_verified">Почта не подтверждена</string>
+    <string name="upload_language_not_chosen">Выберите язык мема</string>
+    <string name="passMaxLength">Ваш пароль не может быть длиннее %1$d символов</string>
+    <string name="connectingToServer">Подключение к серверу</string>
+    <string name="welcomeBack">Welcome back to MemeBroker</string>
+    <string name="emailOccupied">Эта почта уже используется</string>
+    <string name="wrong_lang">Неверно указан язык</string>
+    <string name="byJattilainen">By jattilainen</string>
+    <string name="agree_with_policy"> Регистрируясь, вы соглашаетесь с <a href = "https://pastebin.com/MQQY0YNF">условиями пользования</a></string>
+    <string name="clearShortlist">Clear shortlist</string>
+    <string name="empty_assets">Вы пока не купили ни одного мема.</string>
+    <string name="empty_shortlist">Раздел \"закладки\" пуст.</string>
+    <string name="empty_uploaded">Вы пока не загрузили ни одного мема.</string>
+    <string name="empty_personprofile">Этот пользователь пока не загрузил ни одного мема.</string>
+    <string name="noText">Без текста</string>
+    <string name="upload_started">Ваш мем принят на рассмотрение</string>
+    <string name="new_memes">Свежие мемы</string>
+    <string name="NewMemesTitle">Свежие %1$s мемы</string>
+
+
+</resources>

@@ -1,0 +1,21 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jattilainen.memebroker.SettingsFragment">
+    <ListPreference
+        android:key="lang"
+        android:title="@string/choose_language"
+        android:summary="@string/changes_on_restart"
+        android:dialogTitle="@string/choose_language"
+        android:entries="@array/locales_userfriendly"
+        android:entryValues="@array/locales_machine"/>
+    <Preference
+        android:key="PASS_PREF"
+        android:title="@string/change_password"/>
+    <Preference
+        android:title="@string/logout"
+        android:key="LOGOUT_PREF">
+    </Preference>
+
+</PreferenceScreen>

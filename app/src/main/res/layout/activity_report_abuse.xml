@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".reportAbuseActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radio_adult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:onClick="onRadioButtonClicked"
+                android:layout_margin="5dp"
+                android:text="@string/porn" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/violence"
+                android:id="@+id/radio_violence"
+                android:onClick="onRadioButtonClicked"
+                android:layout_margin="5dp" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/medical"
+                android:id="@+id/radio_medical"
+                android:onClick="onRadioButtonClicked"
+                android:layout_margin="5dp" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/racism"
+                android:id="@+id/radio_racism"
+                android:onClick="onRadioButtonClicked"
+                android:layout_margin="5dp" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/illegal"
+                android:id="@+id/radio_illegal"
+                android:onClick="onRadioButtonClicked"
+                android:layout_margin="5dp" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/spam"
+                android:id="@+id/radio_spam"
+                android:onClick="onRadioButtonClicked"
+                android:layout_margin="5dp" />
+            <RadioButton
+                android:id="@+id/radio_language"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:onClick="onRadioButtonClicked"
+                android:layout_margin="5dp"
+                android:text="@string/wrong_lang" />
+        </RadioGroup>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_weight="5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="end">
+            <Button
+                android:id="@+id/button_cancel_report"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="?android:attr/selectableItemBackground"
+                android:textColor="@color/colorAccent"
+                android:text="@string/cancel"
+                android:layout_margin="10dp" />
+            <Button
+                android:id="@+id/button_submit_report"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="?android:attr/selectableItemBackground"
+                android:textColor="@color/colorAccent"
+                android:text="@string/submit"
+                android:layout_margin="10dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

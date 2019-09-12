@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="@string/meme_centre">
+        <menu>
+            <item
+                android:id="@+id/nav_meme"
+                android:icon="@drawable/ic_menu_main"
+                android:title="@string/main"
+                android:checkable="true"/>
+            <item
+                android:id="@+id/nav_new_memes"
+                android:icon="@drawable/ic_new_memes"
+                android:title="@string/new_memes"
+                android:checkable="true"/>
+            <item
+                android:id="@+id/nav_assets"
+                android:icon="@drawable/ic_assets"
+                android:title="@string/assets"
+                android:checkable="true"/>
+            <item
+                android:id="@+id/nav_uploaded"
+                android:icon="@drawable/ic_uploaded"
+                android:title="@string/uploadedMemes"
+                android:checkable="true"/>
+            <item
+                android:id="@+id/nav_shortlist"
+                android:icon="@drawable/ic_shortlist"
+                android:title="@string/shortlist"
+                android:checkable="true"/>
+            <item
+                android:id="@+id/nav_top_memes"
+                android:icon="@drawable/ic_top"
+                android:title="@string/topMemes"
+                android:checkable="true" />
+        </menu>
+    </item>
+    <item android:title="@string/people">
+        <menu>
+            <item
+                android:id="@+id/nav_top_people"
+                android:title="@string/topPeople"
+                android:icon="@drawable/ic_people"
+                android:checkable="true"/>
+        </menu>
+    </item>
+    <item android:title="@string/other">//не нужно, но убрать всегда можно
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="@string/action_settings"
+                android:checkable="true"/>
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_help_black"
+                android:title="@string/action_help"
+                android:checkable="true"/>
+        </menu>
+    </item>
+
+</menu>
